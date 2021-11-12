@@ -12,4 +12,12 @@ npm run server
 # or
 yarn install
 yarn server
+
+```
+
+npm start #to run the frontend project @localhost:4000
+
+```
+npm test #to test the frontend project
+
 ```
