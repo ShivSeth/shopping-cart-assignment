@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductsScreen/> When a product is added product screen display it  1`] = `
+<div>
+  <div
+    class="products-page"
+  >
+    <div
+      class="side-menu"
+    >
+      <ul
+        class="menu-options"
+      >
+        <li
+          class=""
+          tabindex="0"
+        >
+          Beverages
+        </li>
+        <li
+          class=""
+          tabindex="0"
+        >
+          Bakery Cakes and Dairy
+        </li>
+        <li
+          class=""
+          tabindex="0"
+        >
+          Beauty and Hygiene
+        </li>
+      </ul>
+    </div>
+    <div
+      class="side-menu-dropdown"
+    >
+      <div
+        class="dropdown"
+      >
+        <div
+          class="dropdown-btn"
+        >
+          Select Category
+           
+          <span
+            class="fas fa-caret-down"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="product-content"
+    >
+      <div
+        class="products-list"
+      >
+        <div
+          class="card-holder"
+        >
+          <h4>
+            Tata Tea Gold Leaf Tea, 500 gm
+          </h4>
+          <div
+            class="item-details"
+          >
+            <div
+              class="image-description"
+            >
+              <img
+                alt="Tata Tea Gold Leaf Tea, 500 gm"
+                src="/static/images/products/beverages/tata-tea.jpg"
+              />
+              <p>
+                Tata Tea Gold is a unique blend of fine Assam tea leaves with special 15%  long leaf.
+              </p>
+            </div>
+            <div
+              class="price-options"
+            >
+              <h5>
+                MRP Rs 165
+              </h5>
+              <button>
+                1 in cart
+              </button>
+            </div>
+            <div
+              class="price-options-button"
+            >
+              <button>
+                1 in cart
+                 @Rs 165
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card-holder"
+        >
+          <h4>
+            Sandwich Bread - White, Chemical Free, 400 gm
+          </h4>
+          <div
+            class="item-details"
+          >
+            <div
+              class="image-description"
+            >
+              <img
+                alt="Sandwich Bread - White, Chemical Free, 400 gm"
+                src="/static/images/products/bakery-cakes-dairy/bread.jpg"
+              />
+              <p>
+                Freshly Baked bread is one of lifes greatest simple pleasures and at Bigbasket we decided to give you just that. We start baking our breads once you order using the finest ingredients available.
+              </p>
+            </div>
+            <div
+              class="price-options"
+            >
+              <h5>
+                MRP Rs 32
+              </h5>
+              <button>
+                Add to cart
+              </button>
+            </div>
+            <div
+              class="price-options-button"
+            >
+              <button>
+                Add to cart
+                 @Rs 32
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card-holder"
+        >
+          <h4>
+            Listerine Mouthwash - Cool Mint, 250 ml
+          </h4>
+          <div
+            class="item-details"
+          >
+            <div
+              class="image-description"
+            >
+              <img
+                alt="Listerine Mouthwash - Cool Mint, 250 ml"
+                src="/static/images/products/beauty-hygiene/listerine.jpg"
+              />
+              <p>
+                Listerine Cool mint Antibacterial Mouthwash is rapid & easy to use, a 30 second "slosh" with Listerine after brushing and flossing reaches parts of the mouth that may be missed. Used two times daily, Listerine provides 24-hour defence against plaque and lasting bright breath assurance.
+              </p>
+            </div>
+            <div
+              class="price-options"
+            >
+              <h5>
+                MRP Rs 109
+              </h5>
+              <button>
+                Add to cart
+              </button>
+            </div>
+            <div
+              class="price-options-button"
+            >
+              <button>
+                Add to cart
+                 @Rs 109
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ProductsScreen/> should Products Add to cart button be present 1`] = `
+<div>
+  <div
+    class="products-page"
+  >
+    <div
+      class="side-menu"
+    >
+      <ul
+        class="menu-options"
+      >
+        <li
+          class=""
+          tabindex="0"
+        >
+          Beverages
+        </li>
+        <li
+          class=""
+          tabindex="0"
+        >
+          Bakery Cakes and Dairy
+        </li>
+        <li
+          class=""
+          tabindex="0"
+        >
+          Beauty and Hygiene
+        </li>
+      </ul>
+    </div>
+    <div
+      class="side-menu-dropdown"
+    >
+      <div
+        class="dropdown"
+      >
+        <div
+          class="dropdown-btn"
+        >
+          Select Category
+           
+          <span
+            class="fas fa-caret-down"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="product-content"
+    >
+      <div
+        class="products-list"
+      >
+        <div
+          class="card-holder"
+        >
+          <h4>
+            Tata Tea Gold Leaf Tea, 500 gm
+          </h4>
+          <div
+            class="item-details"
+          >
+            <div
+              class="image-description"
+            >
+              <img
+                alt="Tata Tea Gold Leaf Tea, 500 gm"
+                src="/static/images/products/beverages/tata-tea.jpg"
+              />
+              <p>
+                Tata Tea Gold is a unique blend of fine Assam tea leaves with special 15%  long leaf.
+              </p>
+            </div>
+            <div
+              class="price-options"
+            >
+              <h5>
+                MRP Rs 165
+              </h5>
+              <button>
+                Add to cart
+              </button>
+            </div>
+            <div
+              class="price-options-button"
+            >
+              <button>
+                Add to cart
+                 @Rs 165
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card-holder"
+        >
+          <h4>
+            Sandwich Bread - White, Chemical Free, 400 gm
+          </h4>
+          <div
+            class="item-details"
+          >
+            <div
+              class="image-description"
+            >
+              <img
+                alt="Sandwich Bread - White, Chemical Free, 400 gm"
+                src="/static/images/products/bakery-cakes-dairy/bread.jpg"
+              />
+              <p>
+                Freshly Baked bread is one of lifes greatest simple pleasures and at Bigbasket we decided to give you just that. We start baking our breads once you order using the finest ingredients available.
+              </p>
+            </div>
+            <div
+              class="price-options"
+            >
+              <h5>
+                MRP Rs 32
+              </h5>
+              <button>
+                Add to cart
+              </button>
+            </div>
+            <div
+              class="price-options-button"
+            >
+              <button>
+                Add to cart
+                 @Rs 32
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card-holder"
+        >
+          <h4>
+            Listerine Mouthwash - Cool Mint, 250 ml
+          </h4>
+          <div
+            class="item-details"
+          >
+            <div
+              class="image-description"
+            >
+              <img
+                alt="Listerine Mouthwash - Cool Mint, 250 ml"
+                src="/static/images/products/beauty-hygiene/listerine.jpg"
+              />
+              <p>
+                Listerine Cool mint Antibacterial Mouthwash is rapid & easy to use, a 30 second "slosh" with Listerine after brushing and flossing reaches parts of the mouth that may be missed. Used two times daily, Listerine provides 24-hour defence against plaque and lasting bright breath assurance.
+              </p>
+            </div>
+            <div
+              class="price-options"
+            >
+              <h5>
+                MRP Rs 109
+              </h5>
+              <button>
+                Add to cart
+              </button>
+            </div>
+            <div
+              class="price-options-button"
+            >
+              <button>
+                Add to cart
+                 @Rs 109
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

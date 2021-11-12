@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginScreen/> should sign in input boxes be present  1`] = `
+<div>
+  <div
+    class="login-form"
+  >
+    <aside
+      class="left-side"
+    >
+      <h2>
+        Sign Up
+      </h2>
+      <p>
+        We do not share your personal details with anyone
+      </p>
+    </aside>
+    <form
+      class="right-side"
+    >
+      <input
+        name="firstName"
+        placeholder="First Name"
+        required=""
+        type="text"
+        value=""
+      />
+      <input
+        name="lastName"
+        placeholder="Last Name"
+        required=""
+        type="text"
+        value=""
+      />
+      <input
+        name="email"
+        placeholder="Email"
+        required=""
+        type="email"
+        value=""
+      />
+      <input
+        minlength="6"
+        name="password"
+        pattern="(?=.*\\\\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
+        placeholder="Password"
+        required=""
+        type="password"
+        value=""
+      />
+      <input
+        minlength="6"
+        name="confirmPassword"
+        pattern="(?=.*\\\\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
+        placeholder="Confirm Password"
+        required=""
+        type="password"
+        value=""
+      />
+      
+      <button
+        type="submit"
+      >
+        Sign In
+      </button>
+    </form>
+  </div>
+</div>
+`;

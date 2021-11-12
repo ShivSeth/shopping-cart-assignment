@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+main {
+  margin-top: 6rem;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background-color: #d00156;
+  color: white;
+  &:hover {
+    cursor: pointer;
+    background-color: #ee0063;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  main {
+    margin-top: 70px;
+  }
+}

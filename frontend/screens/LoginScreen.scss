@@ -1,0 +1,71 @@
+.login-form {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+
+  input {
+    display: block;
+  }
+
+  .left-side {
+    padding: 0 1.5rem;
+    margin: 10px;
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .right-side {
+    padding: 0 1.5rem;
+    width: 30%;
+
+    .error-msg {
+      text-align: center;
+      color: red;
+      margin-bottom: 1rem;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px 0;
+      margin-bottom: 1rem;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid gray;
+
+      &:focus {
+        border-bottom: 2px solid #51dae2;
+      }
+    }
+
+    button {
+      width: 100%;
+      border: none;
+      background-color: #d00156;
+      padding: 10px;
+      color: azure;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .login-form {
+    flex-flow: column;
+
+    justify-content: center;
+    align-items: center;
+
+    .left-side,
+    .right-side {
+      width: 80%;
+    }
+
+    .right-side {
+      margin-top: 1rem;
+    }
+  }
+}

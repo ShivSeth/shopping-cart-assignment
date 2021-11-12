@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen/> Explore buttons should be present 1`] = `
+<div>
+  <div
+    class="carousel"
+    tabindex="0"
+  >
+    <button
+      class="carousel_prev--button"
+      type="button"
+    >
+      PREV
+    </button>
+    <img
+      alt="Independence Day Deal - 25% off on shampoo"
+      src="/static/images/offers/offer1.jpg"
+    />
+    <button
+      class="carousel_next--button"
+      type="button"
+    >
+      NEXT
+    </button>
+    <div
+      class="carousel-dots"
+    >
+      <div
+        class="carousel-dot active"
+      />
+      <div
+        class="carousel-dot"
+      />
+      <div
+        class="carousel-dot"
+      />
+    </div>
+    <div
+      class="bottom-gradient"
+    />
+  </div>
+  <div
+    class="category-details"
+  >
+    <div
+      class="category"
+    >
+      <img
+        alt="Beverages"
+        src="/static/images/category/beverages.png"
+      />
+      <div
+        class="category-info"
+      >
+        <h2>
+          Beverages
+        </h2>
+        <p>
+          Our beverage department will ensure your fridge is always fully stocked. Shop for soda, juice, beer and more. 
+        </p>
+        <button>
+          Explore Beverages
+        </button>
+      </div>
+      <div
+        class="bottom-gradient"
+      />
+    </div>
+    <div
+      class="category"
+    >
+      <img
+        alt="Bakery Cakes and Dairy"
+        src="/static/images/category/bakery.png"
+      />
+      <div
+        class="category-info"
+      >
+        <h2>
+          Bakery Cakes and Dairy
+        </h2>
+        <p>
+          The best cupcakes, cookies, cakes, pies, cheesecakes, fresh bread, biscotti, muffins, bagels, fresh coffee, milk and more.
+        </p>
+        <button>
+          Explore Bakery Cakes and Dairy
+        </button>
+      </div>
+      <div
+        class="bottom-gradient"
+      />
+    </div>
+    <div
+      class="category"
+    >
+      <img
+        alt="Beauty and Hygiene"
+        src="/static/images/category/beauty.png"
+      />
+      <div
+        class="category-info"
+      >
+        <h2>
+          Beauty and Hygiene
+        </h2>
+        <p>
+          Buy beauty and personal care products online in India at best prices.
+        </p>
+        <button>
+          Explore Beauty and Hygiene
+        </button>
+      </div>
+      <div
+        class="bottom-gradient"
+      />
+    </div>
+  </div>
+</div>
+`;
